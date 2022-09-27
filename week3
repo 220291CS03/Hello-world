@@ -1,0 +1,42 @@
+//
+//  main.cpp
+//  hello world
+//
+//  Created by AZIMJON AZIMJON on 27/09/22.
+//
+
+#include <iostream>
+
+using namespace std;
+int main(){
+
+    
+  //  int my_number = 7;
+  //  float float_my_number{5.78};
+  //  double double_mynumb = 9.123;
+  //  char char_letter = 'M';
+  //  bool my_boool{false};
+    
+    //cout<<my_number<<std::endl;
+    
+   // cout<<float_my_number<<std::endl;
+   // cout<<double_mynumb<<std::endl;
+   // cout<<char_letter<<std::endl;
+    //cout<<my_boool<<std::endl;
+    
+    //cout<<"SUM:"<<a<<"+"<< b<<"="<<a+b<<endl;
+    int num1 = 0;
+    int num2 = 0;
+    int product = 0;
+    cout<<"Enter first integer number: ";
+    cin>>num1;
+    cout<<"Enter second integer number: ";
+    cin>>num2;
+    
+    product = num2 * num1;
+    cout<<"PRODUCT:"<<num1<<"*"<<num2<<"="<<product<<endl;
+    
+    
+  
+return 0;
+}
