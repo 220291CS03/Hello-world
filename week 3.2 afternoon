@@ -1,0 +1,24 @@
+
+    float grade =0;
+    float grade2 = 0;
+    float credit = 0;
+    float credit2 = 0;
+    float result = 0;
+    cout <<"type your grade from ENGLISH:"<<endl;
+    cin>>grade;
+    cout<<"type your credit from ENGLISH"<<endl;
+    cin>>credit;
+    cout <<"type your grade from IT:"<<endl;
+    cin>>grade2;
+    cout<<"type your credit from IT"<<endl;
+    cin>>credit2;
+    result = ((grade*credit)+(grade2*credit2))/(credit+credit2);
+    cout<<result<<endl;
+    
+    GPA TOPDIII KOROCHI
+    
+    
+    
+    return 0;
+    
+    
