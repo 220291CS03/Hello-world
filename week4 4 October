@@ -1,0 +1,107 @@
+//
+//  main.cpp
+//  week 4
+//
+//  Created by AZIMJON AZIMJON on 04/10/22.
+//
+
+#include <iostream>
+using namespace std;
+int main(){
+    
+/*char first = 'A';
+    char second = 'A';
+    bool result = first == second; */
+    
+    /* int age = 18;
+    int salary = 500;
+    bool isEligible = (age > 15 and age < 50)&& (salary > 300) ;
+    
+    
+    cout << boolalpha<< isEligible << endl; */
+    
+    //   if (age > 25) cout <<"you are allowed to the big boys clubb"<<endl;
+    
+    
+   /* int temperature  = 49;
+    
+    if ( temperature <=40){
+        cout << "It is okay, babyyy \n";
+    } else if (temperature >40)
+        cout << "You need to get outta here\n";
+    cout <<temperature<< endl; */                           //bo'tta karochi tekshirdi chto ishlidimi yoki yomi IF bilan
+    
+    /*int temperature  = 49;
+    if ( temperature <=40){
+        cout << "It is okay, babyyy \n";
+    } else
+        cout << "You need to get outta here\n";
+    cout <<temperature<< endl; */
+    
+    
+    
+    
+    
+    
+  /*  int number1 = 0;
+    cout << "type your number"<< endl;
+        cin >>number1;
+    if (number1 >=0) {
+        cout <<"ur number is positive\n"<<endl;
+        
+    }
+    else cout <<"ur number is negative\n";
+        cout <<number1<<endl; */ //karochiii polojitelniy ili otritcatelniy MINI programasini yaratti
+    
+    
+    /* int number1 = 0;
+    cout << "type your number: "<< endl;
+        cin >>number1;
+    if (number1%2==0){
+        cout << "number is even\n";
+        
+    }else{
+        cout <<"number is odd\n";
+     } */                                            //karochi bo'tta polojitelniy, va otritcatelniyni tekshirdi
+    
+    
+    /* int x = 0;
+    int y = 0;
+    int z = 0;
+    cout << "type your number no1: "<< endl;
+    cin >> x;
+    cout << "type your number no2: "<< endl;
+    cin >> y;
+    cout << "type your number no3: "<< endl;
+    cin >> z;
+    
+    if (x>y and x>z)
+        cout << "number 1 is the largest\n"<<endl;
+    else if (y>x and y>z)
+        cout <<"number 2 is the largest\n"<<endl;
+    
+    else
+        cout << z << " is the largest of them all"<<endl; */  // edited by teacher to put Z
+    //karochi bo'tta qaysi 3 ta sondan bittasi kottaligi tekshirdi ushanda birinchi bo'lib if kegin else if va oxirda else qivordi
+    
+    
+  /*  int x = 0;
+    int y = 0;
+    int z = 0;
+    cout << "type your x number: "<< endl;
+    cin >> x;
+    cout << "type your y number: "<< endl;
+    cin >> y;
+    cout << "type your z number: "<< endl;
+    cin >> z;
+    
+    if (x+y+z ==180) cout <<"triangle it is\n"<<endl;
+    else cout <<"this is not a triangle"<<endl;  */
+    // korochi uchburcheki ugollarini 3 tarapini summasini tekshirid agar tori bosa torii, agar tori kemasi tori maas
+    
+    
+    
+    
+
+    return 0;
+}
