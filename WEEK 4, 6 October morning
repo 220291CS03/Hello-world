@@ -1,0 +1,89 @@
+//
+//  main.cpp
+//  week 4 6 october
+//
+//  Created by AZIMJON AZIMJON on 06/10/22.
+//
+
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(){
+       /* float a = 0;
+         float b = 0;
+         float c = 0;
+
+    cout <<"Type your 3 numbers in order as a ,b ,c"<<endl;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    
+    float result = b*b-4*a*c;
+    if (result >=0) cout <<"The descriminate is positive"<<endl;
+    else cout <<"Enter other digits for numbers"<<endl;
+    
+    float number1 = (-b+sqrt(result))/(2*a);
+    float number2 = (-b-sqrt(result))/(2*a);
+    cout<<"the x1 is: "<<number1<<endl;
+        cout<<"the x2 is: "<<number2<<endl; */            //karochi botta diskreminanti topdi, kegin undan x1 va x2 niiyam topip chiqdi
+    
+    
+    /* string name1 = "Smith";
+    string name2 = "Bennett";
+    string name3 = "Jackson";
+    string name4 = "Anderson";
+    string name;
+    cout <<"Enter you name: "<<endl;
+    cin>>name;
+    
+    if (name == name1) {
+        cout<<"You have access\n";
+    }else if (name == name2) {
+        cout<<"You have access\n";
+    }else if (name == name3) {
+        cout<<"You have access\n";
+    }else if (name == name4) {
+        cout<<"You have access\n";
+    }else {
+        cout<<"You don`t have access\n";
+    } */     //karochi botta ism bilan ishladi, tersa libo dostub, libo dostup yoliigini, i else iffi koop matta ishlatish mumkunligini bildi, +plyus name ga ;-qoysa yetadi÷≥
+    
+    
+    cout << "Type any number From 1 to 7: "<<endl;
+    int option;
+    cin>>option;
+    
+    switch (option) {
+        case 1:
+            cout<<"Monday"<<endl;
+            break;
+        case 2:
+            cout<<"Tuesday"<<endl;
+            break;
+        case 3:
+            cout<<"Wednesday"<<endl;
+            break;
+        case 4:
+            cout<<"Thursday"<<endl;
+            break;
+        case 5:
+            cout<<"Friday"<<endl;
+            break;
+        case 6:
+            cout<<"Saturday"<<endl;
+            break;
+        case 7:
+            cout<<"Sunday"<<endl;
+            break;
+            
+            
+            
+            
+        default:
+            cout<<"I told you from oooneee to seveeen"<<endl;
+            break;
+    }
+    
+         return 0;
+}
