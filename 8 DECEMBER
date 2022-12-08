@@ -1,0 +1,27 @@
+# include <iostream>
+using namespace std
+
+double fun () {
+    static double x =9.34;
+    x - -;
+    return x ; //8.34
+}
+void w ( float &a , float &b , float & c ) {
+    c = a - b ;
+}
+void toNegative (int * p ) {
+    * p *= -1; //p=p*(-1)
+}
+float important ( float * a ) {
+    * a =* a /8+3; // a/11
+    return * a ;
+}
+int main () {
+    int x1 , x2 , x3 ;
+    float d ;
+    float arr []={45 ,12 ,340};
+    char z ='Y'; //89
+    double result=(4.34+arr[0]-arr[1]+z)/(arr[2]*important()-91);
+    cout < < result < < endl ;
+    return 0;
+}
